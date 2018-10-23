@@ -16,6 +16,7 @@ GEM
     mustermann (1.0.3)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
+    pg (1.1.3)
     public_suffix (3.0.3)
     rack (2.0.5)
     rack-protection (2.0.4)
@@ -49,6 +50,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  pg
   rspec
   sinatra
 
@@ -56,4 +58,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.2
+   1.16.4
